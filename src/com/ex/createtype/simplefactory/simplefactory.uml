@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="simplefactory">
+  <packagedElement xmi:type="uml:Class" xmi:id="_lzaB0M2hEeeAXqfC9kr2eg" name="Operation">
+    <ownedAttribute xmi:id="_riY94M2hEeeAXqfC9kr2eg" name="NumberA"/>
+    <ownedAttribute xmi:id="_rwx_MM2hEeeAXqfC9kr2eg" name="NumberB"/>
+    <ownedOperation xmi:id="_ydIicM2hEeeAXqfC9kr2eg" name="getResult"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DDjSYM2zEeeAXqfC9kr2eg" name="OperationFactory">
+    <ownedOperation xmi:id="_IFaCsM2zEeeAXqfC9kr2eg" name="createOperation()"/>
+  </packagedElement>
+</uml:Model>
